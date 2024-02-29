@@ -8,7 +8,6 @@ export default function NumberComponent(){
     const [form, setForm] = useState({
         name:'',
         hasError: true,
-        reason: 'help',
     });
 
 function handleNumber1Change(e){

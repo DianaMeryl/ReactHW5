@@ -8,7 +8,6 @@ export default function ControlledForm(){
     const [form, setForm] = useState({
         name:'',
         hasError: true,
-        reason: 'help',
     });
 
 function handleNameChange(e){
